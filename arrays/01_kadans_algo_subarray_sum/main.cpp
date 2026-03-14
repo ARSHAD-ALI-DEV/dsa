@@ -7,6 +7,8 @@
 using namespace std;
 
 pair<int,int> maxSumSubIndecies(vector<int> arr){
+
+    // this one returns indecies.
     
     int maxSum = arr[0];
     int currSum = 0;
