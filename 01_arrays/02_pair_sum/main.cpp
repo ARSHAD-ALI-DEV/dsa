@@ -3,7 +3,7 @@
 
 using namespace std;
 
-pair<int, int> pairSum(vector<int> arr, int target)
+pair<int, int> pairSum(vector<int> &arr, int target)
 {
     pair<int, int> ans;
     int st = 0;
